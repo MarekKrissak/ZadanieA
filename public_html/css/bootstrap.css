@@ -6,6 +6,7 @@
  * Based on Bootstrap
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -46,6 +47,7 @@ template {
 }
 a {
   background-color: transparent;
+  font-family: sans-serif;
 }
 a:active,
 a:hover {
@@ -2518,6 +2520,10 @@ select[multiple].form-group-sm .form-control {
   line-height: 1.33;
   border-radius: 6px;
 }
+.input-recaptcha{
+ width:172px;   
+}
+
 select.input-lg,
 select.form-group-lg .form-control {
   height: 64px;
